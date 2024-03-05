@@ -59,7 +59,7 @@ public class Libro02 {
 			this.ejemplaresP += 1;
 			return true;
 		} else {
-			return false;
+			
 		}
 
 	}
