@@ -1,11 +1,11 @@
-package ejclases;
+package ejercicio1;
 
-public class CuentaCorriente01 {
+public class CuentaCorriente {
 	private String dni = "";
 	private String nombre = "";
 	private double saldo;
 
-	public CuentaCorriente01(String dni, double saldo) {
+	public CuentaCorriente(String dni, double saldo) {
 		if (dni != null && !dni.equals("")) {
 			this.dni = dni;
 		}
@@ -14,7 +14,7 @@ public class CuentaCorriente01 {
 		}
 	}
 
-	public CuentaCorriente01(String dni, String nombre, double saldo) {
+	public CuentaCorriente(String dni, String nombre, double saldo) {
 		this(dni, saldo);
 		if (nombre != null && !nombre.equals("")) {
 			this.nombre = nombre;
@@ -75,7 +75,7 @@ public class CuentaCorriente01 {
 	}
 	
 
-	public boolean equals(CuentaCorriente01 c) {
+	public boolean equals(CuentaCorriente c) {
 		boolean sonIguales = false;
 
 		if (this.dni.equals(c.dni)) {

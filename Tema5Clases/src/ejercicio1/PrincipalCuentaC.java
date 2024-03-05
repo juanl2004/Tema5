@@ -1,11 +1,11 @@
-package ejclases;
+package ejercicio1;
 
-public class PrincipalCuentaC01 {
+public class PrincipalCuentaC {
 
 	public static void main(String[] args) {
 		
-		CuentaCorriente01 c1 = new CuentaCorriente01("12345678Z", 5);
-		CuentaCorriente01 c2 = new CuentaCorriente01("11111111H", 100);
+		CuentaCorriente c1 = new CuentaCorriente("12345678Z", 5);
+		CuentaCorriente c2 = new CuentaCorriente("11111111H", 100);
 
 		c1.setNombre("Pepe");
 		c1.mostrarInformacion();
